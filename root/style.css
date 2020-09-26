@@ -1,0 +1,108 @@
+.canvas_conteiner {
+    width: 100%;
+    overflow: auto;
+    background: rgb(95, 93, 93);
+    text-align: center;
+    border: 3px solid;
+}
+
+.pdf_renderer {
+    margin: 20px;
+    width: 60%;
+    height: 1000px;
+}
+
+#txt {
+    display: none;
+}
+
+.myForm {
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    top: 0;
+    /* position: ; */
+}
+
+.nav {
+    background: linear-gradient(45deg, #302f2e, #5f5e5e);
+    display: flex;
+    text-align: center;
+    justify-content: space-between;
+}
+
+.navigation {
+    display: flex;
+    text-align: center;
+    justify-content: space-around;
+}
+
+.real-file {
+    width: 100px;
+    margin-top: 10px;
+    margin-left: 5px;
+    color: white;
+}
+
+.btn {
+    margin: 5px;
+}
+
+.current_page {
+    -webkit-appearance: none;
+    width: 20%;
+    height: 65%;
+    margin-top: 6px;
+}
+
+.btn {
+    max-height: 6vh;
+}
+
+.div__file-inpute {
+    margin: 5px;
+}
+
+.guide {
+    position: fixed;
+    height: 50px;
+    width: 50px;
+    left: 1800px;
+    bottom: 100px;
+    background-color: #6c757d;
+    color: white;
+    font-size: 13px;
+}
+
+.loadingparagraf {
+    position: fixed;
+    left: 1600px;
+    top: 200px;
+    color: white;
+}
+
+.smoothe {
+    animation: forwards;
+    position: fixed;
+    color: #302f2e;
+    left: 1600px;
+    bottom: 100px;
+    background-color: whitesmoke;
+    width: 260px;
+    height: 130px;
+}
+
+.inpute-label {
+    color: white;
+    cursor: pointer;
+}
+
+.speak-stop {
+    display: block;
+    margin-left: 100px;
+    margin-right: -100px;
+}
+
+.maxPage {
+    color: white;
+}
